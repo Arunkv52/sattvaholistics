@@ -2,8 +2,8 @@ import Header from '../Header'
 import Services from '../home/Services'
 import About from '../home/About'
 import Benefits from '../home/Benefits'
-import FeatureCards from '../home/FeatureCards'
 import Preview from '../home/Preview'
+import Footer from '../Footer'
 
 const Home = () => {
   return (
@@ -30,7 +30,8 @@ const Home = () => {
         <Preview />
       </section>
 
-     
+     {/* Footer */}
+     <Footer />
 
 
     </>

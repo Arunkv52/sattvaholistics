@@ -18,7 +18,7 @@ const Preview = () => {
 
   return (
     <section className='w-full bg-[#f4f1ec] py-20'>
-      <div className='mx-auto grid  grid-cols-1 gap-4 px-3 lg:grid-cols-2'>
+      <div className='mx-auto grid  grid-cols-1 gap-2 px-3 lg:grid-cols-2'>
         {cards.map((card, index) => (
           <div
             key={index}

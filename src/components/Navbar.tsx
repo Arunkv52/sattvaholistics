@@ -20,8 +20,8 @@ const Navbar = () => {
       title: 'Services',
       submenu: [
         {
-          title: 'Yoga',
-          link: '/products/coffee-dryer'
+          title: 'Energy Balancing',
+          link: '/energybalancing'
         },
         {
           title: 'Therapy',
@@ -34,11 +34,11 @@ const Navbar = () => {
       submenu: [
         {
           title: 'Upcoming Classes',
-          link: '/products/coffee-dryer'
+          link: '/upcomingclass'
         },
         {
           title: 'Previous Classes',
-          link: '/products/paddy-dryer'
+          link: '/previousclass'
         }
       ]
     },
@@ -101,7 +101,7 @@ const Navbar = () => {
 
           {/* Desktop Button */}
           <div className='hidden lg:block'>
-            <button className=' text-white px-4 py-2 text-base rounded-lg  hover:scale-105 transition-all duration-300'>
+            <button className='bg-black text-white px-4 py-2 text-base rounded-lg  hover:scale-105 transition-all duration-300'>
               Join Our Classes
             </button>
           </div>

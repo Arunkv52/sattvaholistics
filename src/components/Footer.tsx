@@ -1,4 +1,4 @@
-import MenuItems from '../data/TopMenu'
+import FooterMenu from '../data/FooterMenu'
 import Social from '../data/SocialLinks'
 import Noise from './Noise'
 import Logo from '../assets/logo/logo.png'
@@ -6,7 +6,7 @@ import Logo from '../assets/logo/logo.png'
 const Footer = () => {
   return (
     <>
-      <footer className='bg-[#010506] md:py-8 py-5 px-3'>
+      <footer className='bg-[#010506] md:py-8 py-5 px-5'>
         <Noise
           patternSize={160}
           patternScaleX={1.9}
@@ -16,17 +16,17 @@ const Footer = () => {
         />
         <div className='footer-top md:flex justify-between'>
           <div className='md:w-1/2 w-full'>
-            <div className='md:py-0 py-3 md:flex md:justify-start flex justify-center  md:bg-transparent bg-white  md:p-0 p-3'>
+            <div className='md:py-0 py-3 md:flex md:justify-start flex justify-center  md:bg-transparent md:p-0'>
               <img src={Logo} alt='' className='md:w-30 w-30' />
             </div>
           </div>
           {/* Social Links section */}
           <div className='md:w-1/2 w-full'>
             <div>
-              {MenuItems.map(item => (
+              {FooterMenu.map(item => (
                 <>
                   <div>
-                    <p className='text-white text-3xl border-b border-b-white font-semibold'>
+                    <p className='text-white md:text-2xl text-2xl border-b border-b-white font-semibold md:py-1 py-1 cursor-pointer'>
                       {item.title}
                     </p>
                   </div>
@@ -37,7 +37,7 @@ const Footer = () => {
         </div>
         <div className='footer-bottom md:flex justify-between mt-15'>
           <div className='md:w-1/2 w-full'>
-            <div className='w-[50%]'>
+            <div className='md:w-[50%] w-full'>
               <p className='text-white text-sm leading-4'>
                 Few companies can say they have the world at their feet, both
                 literally and figuratively. As a global marketer of branded
@@ -49,9 +49,9 @@ const Footer = () => {
           </div>
           {/* Social Links section */}
           <div className='md:w-1/2 w-full'>
-            <div className='grid grid-cols-2'>
+            <div className='md:grid md:grid-cols-2 grid grid-cols-1 mt-10'>
               <div className='w-full flex flex-col justify-between items-start md:pt-0 pt-5'>
-                <div className='md:text-base text-base text-white pb-2'>
+                <div className='md:text-base text-base text-white md:pb-2 pb-10'>
                   <ul>
                     <li>admin@sattvaholistics.com</li>
                     <li>+91 99940 53595</li>

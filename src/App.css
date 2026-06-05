@@ -82,3 +82,38 @@ background:
   height: 100dvh;
   border-radius: 20px;
 }
+
+.about-us-hero{
+  background: 
+  linear-gradient(rgba(0, 0, 0, 0.4), rgba(5, 9, 36, 0.4)),
+  url('/src/assets/home/premium-images/yoga-bg-2.jpg');
+    background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100dvh;
+  border-radius: 20px;
+}
+
+.yoga-hero-sec{
+    background: 
+  linear-gradient(rgba(0, 0, 0, 0.4), rgba(5, 9, 36, 0.4)),
+  url('/src/assets/home/yoga-cls.jpg');
+    background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100dvh;
+  border-radius: 20px;
+}
+.contact-bg{
+    background: 
+  linear-gradient(rgba(0, 0, 0, 0.77), rgba(5, 9, 36, 0.4)),
+  url('/src/assets/home/premium-images/bg-empty.jpg');
+    background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100dvh;
+  border-radius: 20px;
+}

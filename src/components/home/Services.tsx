@@ -6,7 +6,7 @@ import Yoga3 from '../../assets/home/premium-images/image-3.jpg'
 const Services = () => {
   return (
     <>
-      <section className='px-3 py-20 min-h-screen'>
+      <section className='md:px-3 px-5 py-20 min-h-screen'>
         <div className=' mx-auto grid grid-cols-1 lg:grid-cols-3 gap-6'>
           {/* LEFT CARD */}
           <div className='relative rounded-[32px] overflow-hidden group h-[520px]'>

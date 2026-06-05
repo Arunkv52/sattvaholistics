@@ -1,7 +1,7 @@
 import Image7 from '../../assets/home/bg-hero.jpg'
 export default function About() {
   return (
-    <section className="w-full  py-20 md:px-12 overflow-hidden">
+    <section className="w-full md:pt-20 pt-40 md:px-12 px-5 overflow-hidden">
       <div className=" mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         
         {/* Left Label */}
@@ -41,12 +41,7 @@ export default function About() {
                 Explore More
               </button>
 
-              <button className="group flex items-center gap-2 text-neutral-800 font-medium">
-                Learn More
-                <span className="group-hover:translate-x-1 transition-transform">
-                  →
-                </span>
-              </button>
+              
             </div>
           </div>
         </div>

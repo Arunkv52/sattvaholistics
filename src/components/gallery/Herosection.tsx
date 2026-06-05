@@ -1,0 +1,37 @@
+import HeroImagee from '../../assets/home/premium-images/yoga-bg-2.jpg'
+import Navbar from '../Navbar'
+
+const Herosection = () => {
+  return (
+    <>
+      <Navbar />
+      <section className='relative h-[100vh] overflow-hidden rounded-2xl'>
+        <img
+          src={HeroImagee}
+          alt=''
+          className='absolute inset-0 h-full w-full object-cover'
+        />
+
+        <div className='absolute inset-0 bg-black/40' />
+
+        <div className='relative z-10 flex h-full items-center justify-center'>
+          <div className='text-center text-white'>
+            <p className='mb-4 uppercase tracking-[0.4em]'>Gallery</p>
+
+            <h1 className='text-6xl font-light md:text-8xl'>
+              Moments of
+              <span className='font-serif italic'> Presence</span>
+            </h1>
+
+            <p className='mx-auto mt-8 max-w-xl text-lg text-white/80'>
+              Discover the beauty of movement, stillness, and connection through
+              our community.
+            </p>
+          </div>
+        </div>
+      </section>
+    </>
+  )
+}
+
+export default Herosection
