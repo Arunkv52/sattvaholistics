@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Play, Clock, Video, ChevronRight, Leaf } from 'lucide-react'
+import { Clock, Video, Leaf } from 'lucide-react'
 import Navbar from '../Navbar'
 
 const yogaImages = {

@@ -20,7 +20,6 @@ const columns = [
 // Separate component so each column gets its own useTransform
 const Column = ({
   heading,
-  body,
   revealRange,
   scrollYProgress,
 }: (typeof columns)[0] & { scrollYProgress: ReturnType<typeof useScroll>['scrollYProgress'] }) => {
@@ -36,7 +35,7 @@ const Column = ({
           opacity,
         }}
       >
-        <p className='text-black/80 mt-2 md:max-w-xs max-w-full'>{body}</p>
+        <p className='text-black/80 mt-2 md:max-w-xs max-w-full'></p>
       </motion.div>
     </div>
   )

@@ -83,7 +83,6 @@ const Whychooseus = () => {
                   hover:-translate-y-2
                 '
               >
-                <div className='text-3xl mb-8 text-white/90'>{item.icon}</div>
 
                 <h3 className='text-2xl font-light mb-4'>{item.title}</h3>
 
