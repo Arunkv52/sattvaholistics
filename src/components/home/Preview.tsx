@@ -3,13 +3,13 @@ import { ArrowRight } from 'lucide-react'
 const Preview = () => {
   const cards = [
     {
-      title: 'Progress with\npurpose.',
+      title: 'Awaken Your Inner Energy',
       button: 'Class Preview',
       image:
         'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1400&auto=format&fit=crop',
     },
     {
-      title: 'Where talent\nshapes what’s next.',
+      title: 'Moments of Healing & Growth',
       button: 'Gallery Preview',
       image:
         'https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=1400&auto=format&fit=crop',
@@ -37,7 +37,7 @@ const Preview = () => {
             {/* Content */}
             <div className='absolute inset-0 flex flex-col justify-between p-4 md:p-10'>
               {/* Heading */}
-              <h2 className='max-w-[420px] whitespace-pre-line text-4xl font-bold leading-tight text-white md:text-6xl'>
+              <h2 className='max-w-[420px] whitespace-pre-line text-4xl font-bold leading-tight text-white md:text-4xl'>
                 {card.title}
               </h2>
 

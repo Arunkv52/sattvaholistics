@@ -57,16 +57,14 @@ export default function ContactForm() {
     <section className="min-h-screen  text-black">
       {/* Header */}
       <div className="text-center pt-20 pb-12 px-6">
-        <h1 className="text-4xl md:text-6xl font-black uppercase leading-tight">
+        <h1 className="text-4xl md:text-5xl font-black uppercase leading-tight">
           Let's Work Together
           <br />
           With Sattva Holistics
-          <span className="text-[#E5173F]">+</span>
         </h1>
 
         <p className="mt-5 text-gray-400 max-w-lg mx-auto">
-          We're always happy to hear from our customers, investors, and film
-          enthusiasts.
+          Learn powerful techniques for energy awareness, emotional wellbeing, and holistic self-care.
         </p>
       </div>
 
@@ -280,7 +278,7 @@ export default function ContactForm() {
           <p className="text-gray-400">
             Monday - Friday
             <br />
-            8:00 AM - 6:00 PM
+            10:00 AM - 6:00 PM
           </p>
         </div>
 
@@ -290,9 +288,9 @@ export default function ContactForm() {
           </h3>
 
           <p className="text-gray-400">
-            123 Ocean View Drive
-            <br />
-            San Francisco, CA 94110
+            
+            
+            Coimbatore - 641014
           </p>
         </div>
       </div>

@@ -10,10 +10,7 @@ const yogaImages = {
     'https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=600&q=80'
 }
 
-const stats = [
-  { value: '81K+', label: 'Worldwide Members' },
-  { value: '240+', label: 'Expert Instructors' }
-]
+
 
 export default function Herosection () {
   const [loaded, setLoaded] = useState(false)
@@ -42,49 +39,27 @@ export default function Herosection () {
             <div className='inline-flex items-center gap-2 bg-white border border-[#C8DEC5] rounded-full px-4 py-1.5 w-fit shadow-sm '>
               <Leaf size={14} className='text-[#4A7C59]' />
               <span className='text-sm font-medium text-[#4A7C59] tracking-wide'>
-                Welcome To Shanty
+                Welcome to Sattva Holistics
               </span>
             </div>
 
             {/* Headline */}
             <h1 className='text-[clamp(2.6rem,5.5vw,4rem)] font-bold leading-[1.1] text-white tracking-tight'>
-              Discover the <br />
-              Power of Yoga <br />
-              <span className='text-white/50'>& Meditation</span>
+              Discover the Power of <br />
+              Healing, Balance <br />
+              <span className='text-white/50'>& Inner Transformation</span>
             </h1>
 
             {/* Description */}
             <p className='text-white text-base md:text-lg leading-relaxed max-w-md'>
-              Find balance, flexibility, and inner peace with expert-led classes
-              for all levels — from sunrise flows to deep evening restoratives.
+              Reconnect with your natural energy through holistic healing
+              practices designed to nurture your mind, body, and spirit.
+              Experience greater clarity, emotional wellbeing, and lasting inner
+              peace.
             </p>
 
-            {/* CTA Row */}
-            <div className='flex flex-wrap items-center gap-4 mt-2'>
-              <a
-                href='/classes'
-                className='flex items-center gap-2 bg-[#4A7C59] hover:bg-[#3A6347] active:scale-95 text-white font-semibold text-sm px-6 py-3.5 rounded-full transition-all duration-200 shadow-md shadow-[#4A7C59]/30'
-              >
-                Let's Get Started
-                <ChevronRight size={16} />
-              </a>
-             
-            </div>
-
-            {/* Stats */}
-            <div className='flex items-center gap-10 pt-4 mt-2 border-t border-[#D8E8D5]'>
-              {stats.map((s, i) => (
-                <div key={i} className='flex flex-col'>
-                  <span className='text-2xl font-bold text-[#ffffff]'>
-                    {s.value}
-                  </span>
-                  <span className='text-sm text-[#e3e3e3]'>{s.label}</span>
-                </div>
-              ))}
-
-              
-              
-            </div>
+           
+           
           </div>
 
           {/* ── RIGHT COLUMN — Image Mosaic ── */}
@@ -136,26 +111,9 @@ export default function Herosection () {
               />
             </div>
 
-            {/* Floating pill — class rating */}
-            <div className='absolute top-[10%] left-[4%] bg-white rounded-full px-3.5 py-2 flex items-center gap-2 shadow-lg border border-[#E8F0E6] z-20 animate-bounce-slow'>
-              <span className='text-lg'>🧘</span>
-              <div className='flex flex-col leading-none'>
-                <span className='text-xs font-semibold text-[#1C2B1E]'>
-                  4.9★ Rating
-                </span>
-                <span className='text-[10px] text-[#6B7D6E]'>
-                  2,400 reviews
-                </span>
-              </div>
-            </div>
+            
 
-            {/* Floating pill — next class */}
-            <div className='absolute bottom-[12%] left-[8%] bg-[#4A7C59] text-white rounded-2xl px-4 py-2.5 shadow-lg z-20'>
-              <p className='text-[10px] font-medium opacity-80 uppercase tracking-wider'>
-                Next Class
-              </p>
-              <p className='text-sm font-bold'>Morning Flow — 7 AM</p>
-            </div>
+            
           </div>
         </div>
       </section>

@@ -3,18 +3,27 @@ import AboutImage from '../../assets/home/left-study.jpg'
 const Aboutsattva = () => {
   return (
     <>
-      
       <div className='md:py-20 py-20 md:px-50 px-5 text-white bg-black rounded-2xl'>
-       
         <div className='top-txt md:px-50 px-0'>
           <div>
-            <h2 className='md:text-3xl text-2xl font-bold py-10'>Our Values.</h2>
+            <h2 className='md:text-3xl text-2xl font-bold py-5'>
+              About Sattva Holistics
+            </h2>
           </div>
           <div>
-            <p className='md:text-3xl text-2xl'>
-              We believe in always asking why. Learn every day–picking up new
-              insights from the global marketplace and our consumers. Study
-              today’s trends and look around corners for tomorrow’s. Be curious.
+            <p className='md:text-base text-base'>
+              At Sattva Holistics, we are dedicated to helping individuals
+              achieve harmony in mind, body, and spirit through holistic healing
+              practices. We believe that true wellness comes from within, and
+              our mission is to guide people toward a more balanced, peaceful,
+              and fulfilling life.
+            </p>
+            <p className='md:text-base text-base'>
+              Through energy healing, sound therapy, emotional release
+              techniques, and mindfulness-based practices, we create a nurturing
+              space where transformation, healing, and self-discovery can
+              naturally unfold. Every session is designed to support your unique
+              journey toward greater wellbeing and inner awareness.
             </p>
           </div>
         </div>
@@ -27,12 +36,13 @@ const Aboutsattva = () => {
             />
           </div>
           <div>
-            <h2 className='text-2xl font-bold'>Our Values.</h2>
+            <h2 className='text-2xl font-bold'>Our Mission</h2>
           </div>
           <div>
-            <p className='md:text-2xl text-base'>
-              Our Vision only becomes real through the principles that guide how
-              we work, create, and move forward every day.
+            <p className='md:text-base text-base'>
+              To empower individuals to restore balance, release energetic and
+              emotional blockages, and embrace holistic wellbeing through
+              compassionate healing practices and personalized guidance.
             </p>
           </div>
         </div>
@@ -45,12 +55,13 @@ const Aboutsattva = () => {
             />
           </div>
           <div>
-            <h2 className='text-2xl font-bold'>Our Values.</h2>
+            <h2 className='text-2xl font-bold'>Our Vision</h2>
           </div>
           <div>
-            <p className='md:text-2xl text-base'>
-              Our Vision only becomes real through the principles that guide how
-              we work, create, and move forward every day.
+            <p className='md:text-base text-base'>
+              To create a world where holistic wellness is accessible to
+              everyone, inspiring individuals to live with greater awareness,
+              vitality, emotional freedom, and inner peace.
             </p>
           </div>
         </div>

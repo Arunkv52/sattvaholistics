@@ -1,5 +1,5 @@
-import Futureclass from "../classes/Futureclass"
 import Previousevents from "../classes/Previousevents"
+import Previousclassevents from "../classes/Previousclassevents"
 import Footer from "../Footer"
 import Navbar from "../Navbar"
 
@@ -7,7 +7,7 @@ const Previousclass = () => {
   return (
     <>
         <Navbar />
-        <Futureclass />
+        <Previousclassevents />
         <Previousevents />
         <Footer />
     </>

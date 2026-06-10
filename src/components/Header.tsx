@@ -60,13 +60,12 @@ const Header = () => {
               {/* Left Content */}
               <div className='max-w-2xl'>
                 <h1 className='text-5xl font-bold leading-15 text-white md:text-7xl'>
-                  More yoga,
-                  <span className='block text-white/60'>better world</span>
+                  Restore Balance. 
+                  <span className='block text-white/60'>Awaken Your Inner Energy.</span>
                 </h1>
 
-                <p className='mt-6 max-w-lg text-lg text-white/70'>
-                  Creating immersive digital experiences that elevate brands and
-                  connect with audiences.
+                <p className='mt-6 max-w-lg text-base text-white/70'>
+                  Experience holistic healing through energy work, sound vibrations, and mindful practices designed to bring harmony to your mind, body, and spirit.
                 </p>
 
                 <button className='group mt-10 flex items-center gap-3 rounded-full border border-white/20 px-6 py-4 text-white backdrop-blur transition-all duration-300 hover:bg-white hover:text-black cursor-pointer'>

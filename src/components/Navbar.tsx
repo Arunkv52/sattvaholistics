@@ -24,9 +24,24 @@ const Navbar = () => {
           link: '/energybalancing'
         },
         {
-          title: 'Therapy',
-          link: '/products/paddy-dryer'
+          title: 'Reiki Healing',
+          link: '/Reiki Healing'
+        },{
+          title: 'Sound Therapy',
+          link: '/soundtheraphy'
+        },
+        {
+          title: 'Emotional Release',
+          link: '/emotionalrelease'
+        },{
+          title: 'Intuition Boost',
+          link: '/intuitionboost'
+        },
+        {
+          title: 'Energy Block Clear',
+          link: '/energyblockclear'
         }
+
       ]
     },
     {

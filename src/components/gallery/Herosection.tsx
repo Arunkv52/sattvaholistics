@@ -18,14 +18,13 @@ const Herosection = () => {
           <div className='text-center text-white'>
             <p className='mb-4 uppercase tracking-[0.4em]'>Gallery</p>
 
-            <h1 className='text-6xl font-light md:text-8xl'>
-              Moments of
-              <span className='font-serif italic'> Presence</span>
+            <h1 className='text-6xl font-light md:text-6xl'>
+              Moments of 
+              <span className='font-serif italic'>Healing & Connection</span>
             </h1>
 
             <p className='mx-auto mt-8 max-w-xl text-lg text-white/80'>
-              Discover the beauty of movement, stillness, and connection through
-              our community.
+              Explore inspiring moments from our wellness sessions, healing circles, workshops, and community gatherings.
             </p>
           </div>
         </div>

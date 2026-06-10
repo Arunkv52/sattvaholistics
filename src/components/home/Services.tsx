@@ -30,7 +30,7 @@ const Services = () => {
             <div className='absolute bottom-6 left-6 right-6 flex items-end justify-between'>
               <div>
                 <h2 className='text-white text-3xl font-semibold leading-tight'>
-                  Balance <br /> Your Mind
+                  Moments of Healing & Growth
                 </h2>
               </div>
 
@@ -70,8 +70,8 @@ const Services = () => {
               </div>
 
               <div className='absolute bottom-6 left-6 right-6 flex items-end justify-between'>
-                <h2 className='text-white text-2xl font-medium'>
-                  Calm <br /> & Relaxation
+                <h2 className='text-white text-3xl font-medium'>
+                  Explore Our <br /> Wellness Community
                 </h2>
 
                 <button className='w-12 h-12 rounded-full bg-white flex items-center justify-center hover:rotate-45 duration-300'>

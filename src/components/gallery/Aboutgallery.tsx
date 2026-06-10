@@ -8,8 +8,8 @@ const Aboutgallery = () => {
         <div className='mx-auto max-w-7xl px-6'>
           <div className='mb-20'>
             <h2 className='md:text-5xl text-4xl font-light'>
-              Retreat &
-              <span className='font-serif italic'> Class Highlights</span>
+              Capturing Moments of 
+              <span className='font-serif italic'> Transformation</span>
             </h2>
           </div>
 

@@ -31,17 +31,18 @@ const Previousevents = () => {
           {/* Header */}
           <div className='mb-20 text-center'>
             <span className='uppercase tracking-[0.3em] text-stone-400'>
-              Previous Experiences
+              PAST WELLNESS EXPERIENCES
             </span>
 
-            <h2 className='mt-4 text-5xl font-light md:text-7xl'>
-              Moments We've
-              <span className='font-serif italic'> Shared Together</span>
+            <h2 className='mt-4 text-5xl font-light md:text-5xl'>
+              Celebrating Every
+              <span className='font-serif italic'> Healing Journey</span>
             </h2>
 
             <p className='mx-auto mt-6 max-w-2xl text-stone-400'>
-              Explore highlights from our past yoga and wellness sessions that
-              inspired transformation and connection.
+              Each session has been a unique opportunity for learning, healing,
+              and self-discovery. Explore highlights from our previous classes
+              and witness the transformative power of holistic wellness.
             </p>
           </div>
 
@@ -89,7 +90,7 @@ const Previousevents = () => {
           </div>
 
           {/* Grid */}
-          <div className='mt-12 grid gap-8 md:grid-cols-2 text-white'>
+          <div className='mt-12 grid gap-8 md:grid-cols-3 text-white'>
             {previousClasses.slice(1).map(item => (
               <div
                 key={item.title}

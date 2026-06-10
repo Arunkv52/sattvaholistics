@@ -34,14 +34,13 @@ const Futureevents = () => {
               Upcoming Experiences
             </span>
 
-            <h2 className='mt-5 text-5xl font-light text-stone-900 md:text-7xl'>
-              Join Our Next
-              <span className='font-serif italic'> Wellness Journey</span>
+            <h2 className='mt-5 text-5xl font-light text-stone-900 md:text-5xl'>
+              Step Into a Space of 
+              <span className='font-serif italic'> Healing & Growth</span>
             </h2>
 
-            <p className='mx-auto mt-6 max-w-2xl text-lg text-stone-600'>
-              Curated yoga and meditation sessions designed to elevate your
-              mind, body, and spirit.
+            <p className='mx-auto mt-6 max-w-2xl text-base text-stone-600'>
+              From Reiki healing and sound therapy to mindfulness and energy balancing, our upcoming classes offer practical tools and transformative experiences for lasting wellbeing.
             </p>
           </div>
 
