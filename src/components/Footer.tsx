@@ -35,21 +35,20 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className='footer-bottom md:flex justify-between mt-15'>
+        <div className='footer-bottom md:flex justify-between items-start mt-15'>
           <div className='md:w-1/2 w-full'>
             <div className='md:w-[50%] w-full'>
-              <p className='text-white text-sm leading-4'>
-                Few companies can say they have the world at their feet, both
-                literally and figuratively. As a global marketer of branded
-                footwear, apparel, and accessories, this apt saying speaks to
-                our focus on building great brands and making amazing products,
-                and the bright future before us.
+              <p className='text-white text-md leading-4'>
+                At Sattva Holistics, we guide you toward inner peace, emotional
+                wellbeing, and energetic balance. Our healing-centered approach
+                supports personal transformation and conscious living in a
+                compassionate, uplifting environment.
               </p>
             </div>
           </div>
           {/* Social Links section */}
           <div className='md:w-1/2 w-full'>
-            <div className='md:grid md:grid-cols-2 grid grid-cols-1 mt-10'>
+            <div className='md:grid md:grid-cols-2 grid grid-cols-1'>
               <div className='w-full flex flex-col justify-between items-start md:pt-0 pt-5'>
                 <div className='md:text-base text-base text-white md:pb-2 pb-10'>
                   <ul>
