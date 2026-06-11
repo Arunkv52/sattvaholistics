@@ -58,7 +58,7 @@ const Whychooseus = () => {
             </div>
 
             <div className='flex justify-center lg:justify-end'>
-              <button className='mt-10 lg:mt-28 border border-white/60 text-white px-10 py-4 rounded-full backdrop-blur-md hover:bg-white hover:text-black transition-all duration-500'>
+              <button className='mt-10 lg:mt-28 cursor-pointer border border-white/60 text-white px-10 py-4 rounded-full backdrop-blur-md hover:bg-white hover:text-black transition-all duration-500'>
                 Join Our Classes
               </button>
             </div>

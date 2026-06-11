@@ -1,18 +1,18 @@
 import { ArrowRight } from 'lucide-react'
+import Preview1 from '@/assets/home/classes.jpg'
+import Preview2 from '@/assets/home/gallery.jpg'
 
 const Preview = () => {
   const cards = [
     {
       title: 'Awaken Your Inner Energy',
       button: 'Class Preview',
-      image:
-        'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=1400&auto=format&fit=crop',
+      image:Preview1,
     },
     {
       title: 'Moments of Healing & Growth',
       button: 'Gallery Preview',
-      image:
-        'https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=1400&auto=format&fit=crop',
+      image:Preview2,
     },
   ]
 

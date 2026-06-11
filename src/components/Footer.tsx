@@ -1,7 +1,8 @@
-import FooterMenu from '../data/FooterMenu'
-import Social from '../data/SocialLinks'
+import FooterMenu from './data/FooterMenu'
+import Social from './data/SocialLinks'
 import Noise from './Noise'
 import Logo from '../assets/logo/logo.png'
+import { Link } from 'react-router'
 
 const Footer = () => {
   return (
@@ -23,14 +24,14 @@ const Footer = () => {
           {/* Social Links section */}
           <div className='md:w-1/2 w-full'>
             <div>
-              {FooterMenu.map(item => (
-                <>
-                  <div>
-                    <p className='text-white md:text-2xl text-2xl border-b border-b-white font-semibold md:py-1 py-1 cursor-pointer'>
-                      {item.title}
-                    </p>
-                  </div>
-                </>
+              {FooterMenu.map((item, index) => (
+                <Link
+                  key={index}
+                  to={item.link}
+                  className='block text-white md:text-2xl text-2xl border-b border-b-white font-semibold md:py-1 py-1 cursor-pointer'
+                >
+                  {item.title}
+                </Link>
               ))}
             </div>
           </div>

@@ -1,5 +1,5 @@
 import { ArrowRight } from 'lucide-react'
-import MediImg from '../../assets/home/premium-images/yoga-bg.jpg'
+import MediImg from '../../assets/upcoming/sunset-yoga-serenity.jpg'
 
 export default function Futureclass () {
   return (

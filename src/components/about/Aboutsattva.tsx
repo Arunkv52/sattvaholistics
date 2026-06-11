@@ -1,4 +1,5 @@
-import AboutImage from '../../assets/home/left-study.jpg'
+import AboutImage from '../../assets/about/mission.jpg'
+import AboutImage1 from '../../assets/about/vision.jpg'
 
 const Aboutsattva = () => {
   return (
@@ -36,7 +37,7 @@ const Aboutsattva = () => {
             />
           </div>
           <div>
-            <h2 className='text-2xl font-bold'>Our Mission</h2>
+            <h2 className='text-2xl font-bold'>Our Healing Purpose</h2>
           </div>
           <div>
             <p className='md:text-base text-base'>
@@ -49,13 +50,13 @@ const Aboutsattva = () => {
         <div className='top-txt md:grid md:grid-cols-3 md:gap-10 grid grid-cols-1 gap-5 pt-20'>
           <div>
             <img
-              src={AboutImage}
+              src={AboutImage1}
               alt=''
               className='h-[200px] w-full object-cover rounded-2xl'
             />
           </div>
           <div>
-            <h2 className='text-2xl font-bold'>Our Vision</h2>
+            <h2 className='text-2xl font-bold'>What We Envision</h2>
           </div>
           <div>
             <p className='md:text-base text-base'>

@@ -1,4 +1,4 @@
-import HeroImagee from '../../assets/home/premium-images/yoga-bg-2.jpg'
+import HeroImagee from '../../assets/gallery/new-9.jpg'
 import Navbar from '../Navbar'
 
 const Herosection = () => {

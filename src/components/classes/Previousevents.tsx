@@ -1,4 +1,7 @@
 import { CalendarDays, Users, Star, ArrowRight } from 'lucide-react'
+import Future1 from '../../assets/upcoming/new-5.jpg'
+import Future2 from '../../assets/upcoming/new-6.jpg'
+import Future3 from '../../assets/upcoming/new-7.jpg'
 
 const Previousevents = () => {
   const previousClasses = [
@@ -7,21 +10,21 @@ const Previousevents = () => {
       date: '12 May 2026',
       attendees: '250+',
       rating: '4.9',
-      image: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773'
+      image: Future1
     },
     {
       title: 'Morning Mindfulness Session',
       date: '28 April 2026',
       attendees: '180+',
       rating: '4.8',
-      image: 'https://images.unsplash.com/photo-1545205597-3d9d02c29597'
+      image: Future2
     },
     {
       title: 'Nature Meditation Workshop',
       date: '15 April 2026',
       attendees: '220+',
       rating: '5.0',
-      image: 'https://images.unsplash.com/photo-1518611012118-fb3d5df7a4e6'
+      image: Future3
     }
   ]
   return (

@@ -1,4 +1,9 @@
-import GalleryImg from '../../assets/home/premium-images/yoga-bg-2.jpg'
+import GalleryImg from '../../assets/gallery/new-10.jpg'
+import GalleryImg1 from '../../assets/gallery/new-11.jpg'
+import GalleryImg2 from '../../assets/gallery/new-12.jpg'
+import GalleryImg3 from '../../assets/gallery/new-13.jpg'
+import GalleryImg4 from '../../assets/gallery/new-14.jpg'
+
 
 const Aboutgallery = () => {
 
@@ -26,13 +31,13 @@ const Aboutgallery = () => {
             {/* Small Stack */}
             <div className='space-y-8 md:col-span-5'>
               <img
-                src={GalleryImg}
+                src={GalleryImg1}
                 alt=''
                 className='h-[300px] w-full rounded-[40px] object-cover'
               />
 
               <img
-                src={GalleryImg}
+                src={GalleryImg2}
                 alt=''
                 className='h-[340px] w-full rounded-[40px] object-cover'
               />
@@ -42,7 +47,7 @@ const Aboutgallery = () => {
           <div className='mt-8 grid gap-8 md:grid-cols-12'>
             <div className='md:col-span-5'>
               <img
-                src={GalleryImg}
+                src={GalleryImg3}
                 alt=''
                 className='h-[450px] w-full rounded-[40px] object-cover'
               />
@@ -50,7 +55,7 @@ const Aboutgallery = () => {
 
             <div className='md:col-span-7'>
               <img
-                src={GalleryImg}
+                src={GalleryImg4}
                 alt=''
                 className='h-[450px] w-full rounded-[40px] object-cover'
               />

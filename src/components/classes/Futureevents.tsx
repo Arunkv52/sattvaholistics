@@ -1,4 +1,8 @@
 import { CalendarDays, Clock3, MapPin, ArrowRight } from 'lucide-react'
+import Future1 from '../../assets/upcoming/new-2.jpg'
+import Future2 from '../../assets/upcoming/new-3.jpg'
+import Future3 from '../../assets/upcoming/new-4.jpg'
+
 
 const Futureevents = () => {
   const classes = [
@@ -7,21 +11,21 @@ const Futureevents = () => {
       date: '18 June 2026',
       time: '06:00 AM',
       location: 'Marina Beach Pavilion',
-      image: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773'
+      image: Future1
     },
     {
       title: 'Mindful Evening Meditation',
       date: '21 June 2026',
       time: '06:30 PM',
       location: 'Zen Wellness Studio',
-      image: 'https://images.unsplash.com/photo-1545205597-3d9d02c29597'
+      image: Future2
     },
     {
       title: 'Breath & Balance Retreat',
       date: '24 June 2026',
       time: '07:00 AM',
       location: 'ECR Coastal Resort',
-      image: 'https://images.unsplash.com/photo-1518611012118-fb3d5df7a4e6'
+      image: Future3
     }
   ]
   return (

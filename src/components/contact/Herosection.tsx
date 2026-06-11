@@ -1,13 +1,18 @@
 import { useState, useEffect } from 'react'
 import { Clock, Video, Leaf } from 'lucide-react'
 import Navbar from '../Navbar'
+import Img1 from '../../assets/contact/img-1.jpg'
+import Img2 from '../../assets/contact/img-2.jpg'
+import Img3 from '../../assets/contact/img-3.jpg'
+
+
 
 const yogaImages = {
   meditation:
-    'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&q=80',
-  pose: 'https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=600&q=80',
+    Img1,
+  pose: Img2,
   outdoor:
-    'https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=600&q=80'
+    Img3
 }
 
 
