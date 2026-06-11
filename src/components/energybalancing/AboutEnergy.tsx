@@ -4,37 +4,26 @@ const practices = [
     image:
       "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=800",
   },
-  {
-    title: "Vinyasa Yoga",
-    image:
-      "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800",
-  },
-  {
-    title: "Ashtanga Yoga",
-    image:
-      "https://images.unsplash.com/photo-1545389336-cf090694435e?w=800",
-  },
+ 
 ];
 
 export default function AboutEnergy() {
   return (
     <section className="py-20">
       <div className="w-full mx-auto px-6">
-        <div className="grid lg:grid-cols-4 gap-6">
+        <div className="grid lg:grid-cols-2 gap-6">
           
           {/* Left Content Card */}
           <div className="bg-[#0e2e69] rounded-[32px] p-10 flex flex-col justify-between min-h-[500px]">
             <div>
               <h2 className="text-white md:text-5xl text-5xl font-light leading-tight">
                 Discover
-                <br />
                 yoga's
-                <br />
                 practices
               </h2>
             </div>
 
-            <p className="text-white/90 md:text-sm text-2xl leading-relaxed md:max-w-[220px] w-full">
+            <p className="text-white/90 md:text-sm text-2xl leading-relaxed w-full">
               Yoga is not just physical exercises, it is a way to
               understanding oneself, harmony of body, mind and soul.
             </p>
