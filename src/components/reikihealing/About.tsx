@@ -1,4 +1,4 @@
-import { Sparkles, ArrowRight } from 'lucide-react'
+import { Sparkles } from 'lucide-react'
 import AboutImg from '../../assets/reiki-class/hero-bg.jpg'
 
 const practices = [
