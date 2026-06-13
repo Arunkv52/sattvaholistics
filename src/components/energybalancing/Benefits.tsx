@@ -1,101 +1,100 @@
-import React from "react";
+import {
+  Heart,
+  Sparkles,
+  Activity,
+  Dumbbell,
+} from "lucide-react";
 
-interface Service {
-  id: number;
-  title: string;
-  description: string;
-  image: string;
-}
-
-const services: Service[] = [
+const services = [
   {
-    id: 1,
     title: "Yoga",
-    description:
-      "Experience the flow of movement and breath that energizes your body and calms your mind.",
-    image:
-      "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600",
+    icon: Heart,
+    desc: "Experience mindful movement and breathing practices that create balance and flexibility.",
   },
   {
-    id: 2,
     title: "Meditation",
-    description:
-      "Perfect for beginners and experienced practitioners, helping cultivate mindfulness.",
-    image:
-      "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=600",
+    icon: Sparkles,
+    desc: "Develop inner calm and focus with guided sessions designed for all levels.",
   },
   {
-    id: 3,
     title: "Pilates",
-    description:
-      "Strengthen and tone with dynamic Pilates classes designed to improve posture and stability.",
-    image:
-      "https://images.unsplash.com/photo-1545205597-3d9d02c29597?w=600",
+    icon: Activity,
+    desc: "Build strength, improve posture, and increase body awareness.",
   },
   {
-    id: 4,
     title: "Guided Programs",
-    description:
-      "Whether you're just beginning or looking to deepen your practice, our programs support growth.",
-    image:
-      "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=600",
+    icon: Dumbbell,
+    desc: "Structured wellness journeys to support your growth and transformation.",
   },
 ];
 
-const HealthyPartner: React.FC = () => {
+export default function HealthyPartner() {
   return (
-    <section className="py-20 bg-[#f7f3ef]">
-      <div className="w-full mx-auto px-10">
-        {/* Header */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-gray-500 text-sm tracking-wide uppercase">
-            / What We Do
-          </span>
+    <section className="bg-[#F7F5F2] py-24 px-6">
+      <div className="max-w-7xl mx-auto">
 
-          <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mt-4">
+        {/* Heading */}
+        <div className="text-center max-w-3xl mx-auto mb-16">
+          <p className="uppercase tracking-[5px] text-green-700 text-sm mb-3">
+            What We Do
+          </p>
+
+          <h2 className="text-4xl md:text-6xl font-bold text-slate-900">
             Your Healthy Partner
           </h2>
 
-          <p className="mt-6 text-gray-600 text-lg leading-relaxed">
-            Our online yoga, meditation, Pilates, and guided wellness programs
-            are designed to support you at every stage of your wellness journey.
+          <p className="mt-6 text-gray-600 leading-8">
+            Our online yoga, meditation, Pilates, and guided wellness
+            programs are designed to support your journey toward a
+            healthier and balanced lifestyle.
           </p>
 
-          <button className="mt-8 bg-green-900 hover:bg-green-800 text-white px-8 py-3 rounded-full transition duration-300">
+          <button className="mt-8 px-8 py-4 rounded-full bg-green-700 text-white hover:bg-green-800 transition">
             See All Classes
           </button>
         </div>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {services.map((service) => (
-            <div
-              key={service.id}
-              className="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-lg transition duration-300"
-            >
-              <div className="h-72 overflow-hidden">
-                <img
-                  src={service.image}
-                  alt={service.title}
-                  className="w-full h-full object-cover hover:scale-105 transition duration-500"
-                />
-              </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          {services.map((item) => {
+            const Icon = item.icon;
 
-              <div className="p-5">
-                <h3 className="text-2xl font-semibold text-gray-900 mb-3">
-                  {service.title}
+            return (
+              <div
+                key={item.title}
+                className="group bg-white rounded-3xl p-8 border border-gray-100
+                hover:-translate-y-2 hover:shadow-2xl transition duration-300"
+              >
+                <div
+                  className="w-16 h-16 rounded-2xl bg-green-50
+                  flex items-center justify-center
+                  group-hover:bg-green-700 transition"
+                >
+                  <Icon
+                    size={30}
+                    className="text-green-700 group-hover:text-white"
+                  />
+                </div>
+
+                <h3 className="mt-8 text-2xl font-semibold text-slate-900">
+                  {item.title}
                 </h3>
 
-                <p className="text-gray-600 text-sm leading-relaxed">
-                  {service.description}
+                <p className="mt-4 text-gray-600 leading-7">
+                  {item.desc}
                 </p>
+
+                <button
+                  className="mt-8 text-green-700 font-medium
+                  group-hover:translate-x-2 transition"
+                >
+                  Learn More →
+                </button>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>
   );
-};
-
-export default HealthyPartner;
+}

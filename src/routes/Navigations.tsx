@@ -6,6 +6,7 @@ import Upcomeclass from '@/components/pages/Upcomeclass'
 import Previousclass from '@/components/pages/Previousclass'
 import Gallery from '@/components/pages/Gallery'
 import Contactpage from '@/components/pages/Contact'
+import Reikihealing from '@/components/pages/Reikihealing'
 
 const Router = () => {
   return (
@@ -15,6 +16,7 @@ const Router = () => {
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
           <Route path='/energybalancing' element={<EnergyBalancing />} />
+          <Route path='/reikihealing' element={<Reikihealing/>}/>
           <Route path='/upcomingclass' element={<Upcomeclass />} />
           <Route path='/previousclass' element={<Previousclass />} />
           <Route path='/gallery' element={<Gallery />} />

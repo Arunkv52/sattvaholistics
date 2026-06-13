@@ -12,25 +12,25 @@
       submenu: [
         {
           title: 'Energy Balancing',
-          link: '/energybalancing'
+          link: '/reikihealing'
         },
         {
           title: 'Reiki Healing',
-          link: '/Reiki Healing'
+          link: '/reikihealing'
         },{
           title: 'Sound Therapy',
-          link: '/soundtheraphy'
+          link: '/reikihealing'
         },
         {
           title: 'Emotional Release',
-          link: '/emotionalrelease'
+          link: '/reikihealing'
         },{
           title: 'Intuition Boost',
-          link: '/intuitionboost'
+          link: '/reikihealing'
         },
         {
           title: 'Energy Block Clear',
-          link: '/energyblockclear'
+          link: '/reikihealing'
         }
 
       ]
